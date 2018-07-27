@@ -1,1 +1,38 @@
-asdf
+body {
+    width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#lambs-inter {
+    font-size: 40px;
+    font-style: Garamond;
+    text-align: center;
+}
+.lambs {
+    float: left;
+    height: 400px;
+    width: 450px;
+}
+
+.kids-left {
+    float: left;
+    margin: 5px;
+}
+
+.kids-right {
+    float: right;
+    margin: 5px;
+}
+
+.children1 {
+    /* float: left; */
+    height: 200px;
+    width: 200px;
+}
+
+.children2 {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
