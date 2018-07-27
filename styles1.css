@@ -103,6 +103,17 @@ input {
     background-color: wheat;
 }
 
+.donate-button:active {
+    background-color: #3e6e8e;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+    transition-duration: 0.8s;
+}
+
+.button-holder {
+    margin: 5px;
+}
+
 @media all and (min-width: 480px) {
     
     body {
