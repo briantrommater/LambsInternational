@@ -11,7 +11,7 @@ body {
 
 }
 
-.header, h1, h3, .lambs {
+.header, h1, h3 {
     text-align: center;
 }
 
@@ -23,10 +23,20 @@ p {
     font-size: 19px;
 }
 
+h1 {
+    font-size: 40px;
+}
 
 .lambsh1 {
-    font-size: 40px;
     width: 340px;
+}
+
+.abouth1 {
+    width: 185px;
+}
+
+.donateh1 {
+    width: 185px;
 }
 
 h3 {
@@ -39,7 +49,7 @@ h1, h3 {
 
 }
 
-.lambs {
+.lambs, .about, .donate {
     display: block;
     max-width: 95%; 
 }
