@@ -84,12 +84,14 @@ img, h1, h3 {
     display: inline-block;
     font-size: 18px;
     border-radius: 5px;
+    width: 120px;
 }
 
 .donate-button:active {
-    background-color: #3e8e41;
+    background-color: #3e6e8e;
     box-shadow: 0 2px #666;
     transform: translateY(4px);
+    transition-duration: 0.8s;
 }
 
 .button-holder {
