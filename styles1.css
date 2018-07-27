@@ -7,11 +7,25 @@ body {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.wholepage {
-
+.lambsnav {
+    margin: 0 auto;
+    background-color: rgb(43, 102, 45);
+    width: 300px;
+    height: 56px;
+    border-radius: 12px;
 }
 
-.header, h1, h3 {
+a {
+    text-decoration: none;
+    font-size: 24px;
+    padding:  5px;
+    margin: 4px;
+    color: wheat;
+    background-color: #4CAF50;
+    border-radius: 16px;
+}
+
+.header, h1, h3, a, .lambsnav {
     text-align: center;
 }
 
@@ -46,14 +60,11 @@ h3 {
 
 h1, h3 {
     background-color: rgb(63, 135, 166, 0.333); 
-
 }
 
 .lambs, .about, .donate {
-    display: block;
     max-width: 95%; 
 }
-
 
 .children1, .children2 {
     max-width: 65%;
@@ -73,18 +84,23 @@ img, h1, h3 {
     margin-left: 6px;
 }
 
-/* page 3 */
 .donate-button {
     background-color: #4CAF50; 
-    border: none;
-    color: white;
-    padding: 15px;
+    border: 4px solid rgb(43, 102, 45);
+    color: wheat;
+    padding:  8px 34px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-radius: 5px;
-    width: 120px;
+    /* display: inline-block; */
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+input {
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 1px;
+    background-color: wheat;
 }
 
 .donate-button:active {
@@ -98,15 +114,39 @@ img, h1, h3 {
     margin: 5px;
 }
 
-/* end page 3 */
-
 @media all and (min-width: 480px) {
     
-    .kids-left {
-    
+    body {
+        max-width: 960px;
     }
     
-    .kids-right {
-    
+    .lambsnav {
+        margin: 0 auto;
+        background-color: rgb(43, 102, 45);
+        width: 500px;
+        height: 67px;
+        border-radius: 12px;
     }
-}
+    
+    a {
+        text-decoration: none;
+        font-size: 36px;
+        padding:  5px 5px 5px 15px;
+        margin: 4px 12px;
+        color: wheat;
+        background-color: #4CAF50;
+        border-radius: 16px;
+    }
+    
+    .children1 {
+        margin-right: 20px;
+    }
+    
+    .children2 {
+        margin-left: 20px;
+    }
+    
+    .lambs, .about, .donate {
+        max-width: 75%; 
+    }
+}    
